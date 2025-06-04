@@ -7,8 +7,4 @@ shutoff:
     - POST:/somepath/.*
     - DELETE:/somepath/data/.*
   slingRequests:
-    - GET:/content:json
-  slingServletsAndScripts:
-    - **/something/somescript.esp
-    - /libs/crx/core/components/welcome/osgi/statusdump/GET.jsp
-  
+    - GET:/content:json  
