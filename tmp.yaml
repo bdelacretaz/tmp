@@ -7,4 +7,5 @@ shutoff:
     - POST:/somepath/.*
     - DELETE:/somepath/data/.*
   slingRequests:
-    - GET:/content:json  
+    - GET:/content:json
+    - DELETE
