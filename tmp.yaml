@@ -8,4 +8,4 @@ shutoff:
     - DELETE:/somepath/data/.*
   slingRequests:
     - GET:/content:json
-    - DELETE
+    - GET:/projects::cq:Page
