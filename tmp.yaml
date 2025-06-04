@@ -8,5 +8,5 @@ shutoff:
     - DELETE:/somepath/data/.*
   slingRequests:
     - GET:/content:json
-    - GET:/content/projects
+    - GET:/projects
     - GET:/libs/granite/configurations/content/view
