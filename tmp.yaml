@@ -9,3 +9,4 @@ shutoff:
   slingRequests:
     - GET:/content:json
     - GET:/projects::cq:Page
+    - GET:/libs/granite/configurations/content/view
