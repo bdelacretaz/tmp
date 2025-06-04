@@ -1,0 +1,14 @@
+apiVersion: km/v1
+kind: konmari/valves+triggers
+shutoff:
+  bundles:
+    - com.adobe.aem.something
+  httpRequests:
+    - POST:/somepath/.*
+    - DELETE:/somepath/data/.*
+  slingRequests:
+    - GET:/content:json
+  slingServletsAndScripts:
+    - **/something/somescript.esp
+    - /libs/crx/core/components/welcome/osgi/statusdump/GET.jsp
+  
