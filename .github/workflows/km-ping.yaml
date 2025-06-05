@@ -3,7 +3,7 @@ name: Ping on changes
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   ping-aem:
