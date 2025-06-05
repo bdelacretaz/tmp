@@ -1,0 +1,14 @@
+name: Ping on changes
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  ping-aem:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send GET request upon main branch changes
+        run: |
+          curl -X GET "https://author-p154555-e1622215.adobeaemcloud.com/km/ping"
