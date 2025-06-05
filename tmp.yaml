@@ -1,4 +1,4 @@
-apiVersion: km/v1
+apiVersion: km/v1.2
 kind: konmari/valves+triggers
 shutoff:
   bundles:
