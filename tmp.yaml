@@ -10,4 +10,5 @@ shutoff:
     - GET:/content:json
     - GET:/tmp:json
     - GET:/projects
+    - GET:crx/de/index.jsp
     - GET:/libs/granite/configurations/content/view
