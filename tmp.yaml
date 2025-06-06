@@ -10,5 +10,5 @@ shutoff:
     - GET:/content:json
     - GET:/tmp:json
     - GET:/projects
-    - NOT_GET:/libs/granite/configurations/content/view
+    - GET:/libs/granite/configurations/content/view
     - GET:somethingsC
